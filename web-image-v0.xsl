@@ -66,7 +66,6 @@
           </text>
         </a>
       </xsl:for-each>
-
     </svg>
   </xsl:template>
 </xsl:stylesheet>
