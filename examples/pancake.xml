@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../web-image.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../web-image-v0.xsl"?>
 <web-image>
   <natural-width>571</natural-width>
   <natural-height>506</natural-height>
