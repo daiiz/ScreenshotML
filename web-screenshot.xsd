@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="web-screenshot" type="WebScreenshot" />
+
+  <xsd:complexType name="WebScreenshot">
+    <xsd:all>
+      <xsd:element name="natural-width" minOccurs="1" maxOccurs="1" type="xsd:float" />
+      <xsd:element name="natural-height" minOccurs="1" maxOccurs="1" type="xsd:float" />
+      <xsd:element name="background-image" minOccurs="1" maxOccurs="1" type="BackgroundImage" />
+      <xsd:element name="cite" minOccurs="1" maxOccurs="1" type="Cite" />
+      <xsd:element name="external-links" minOccurs="1" maxOccurs="1"
+        type="ExternalLinks" />
+      <xsd:element name="external-images" minOccurs="1" maxOccurs="1"
+        type="ExternalImages" />
+    </xsd:all>
+  </xsd:complexType>
+
+  <xsd:complexType name="ExternalLinks">
+    <xsd:sequence>
+      <xsd:element name="link" minOccurs="0" maxOccurs="unbounded" type="External" />
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="ExternalImages">
+    <xsd:sequence>
+      <xsd:element name="image" minOccurs="0" maxOccurs="unbounded" type="External" />
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="External">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="x" type="xsd:float" use="required" />
+        <xsd:attribute name="y" type="xsd:float" use="required" />
+        <xsd:attribute name="width" type="xsd:float" use="required" />
+        <xsd:attribute name="height" type="xsd:float" use="required" />
+        <xsd:attribute name="href" type="xsd:anyURI" use="required" />
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="BackgroundImage">
+    <xsd:sequence />
+    <xsd:attribute name="src" type="xsd:anyURI" use="required" />
+  </xsd:complexType>
+
+  <xsd:complexType name="Cite">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="source" type="xsd:anyURI" use="required" />
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+</xsd:schema>
