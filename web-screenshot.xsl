@@ -63,7 +63,7 @@
             <xsl:value-of select="4" />
           </xsl:attribute>
           <xsl:attribute name='y'>
-            <xsl:value-of select="natural-height - 6" />
+            <xsl:value-of select="natural-height - 4" />
           </xsl:attribute>
           <xsl:value-of select="cite" />
         </text>
