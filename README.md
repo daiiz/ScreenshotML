@@ -2,14 +2,15 @@
 
 https://scrapbox.io/daiiz/ScreenshotML
 
-## Sample XML
-https://daiiz-paprika.appspot.com/doc/825e2789b5b37f888017885d2af4df71#.xml
+## Contents
+- http://localhost:8000/web-screenshot.xsl
+- http://localhost:8000/web-screenshot.xsd
+
+## Sample XML documents
+- http://localhost:8000/web-screenshot/pancake.xml
+- http://localhost:8000/web-screenshot/pancake.xsl.xml
 
 ## Run
 ```
 $ python -m SimpleHTTPServer 8000
 ```
-
-- http://localhost:8000/examples/index.html
-- http://localhost:8000/examples/pancake.xml
-- http://localhost:8000/web-image.xsl

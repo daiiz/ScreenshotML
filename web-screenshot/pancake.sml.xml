@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sml:web-screenshot
+  xmlns:sml="http://gyakky.daiiz.org/ScreenshotML">
+  <sml:natural-width>571.0</sml:natural-width>
+  <sml:natural-height>506</sml:natural-height>
+  <sml:background-image sml:src="https://gyazo.com/3221f9b7a16b056d80db62c04e4ddb66/raw" />
+  <sml:cite sml:source="https://scrapbox.io/daiiz/The_Great_Burgerに行ってきた">The Great Burgerに行ってきた</sml:cite>
+  <sml:external-links>
+    <sml:link sml:x="53.5" sml:y="79" sml:width="75" sml:height="17" sml:href="https://scrapbox.io/daiiz/パンケーキ">パンケーキ</sml:link>
+    <sml:link sml:x="76" sml:y="106" sml:width="15" sml:height="17" sml:href="https://scrapbox.io/daiiz/卵">卵</sml:link>
+    <sml:link sml:x="121" sml:y="160" sml:width="60" sml:height="17" sml:href="https://scrapbox.io/daiiz/目玉焼き">目玉焼き</sml:link>
+    <sml:link sml:x="31" sml:y="185" sml:width="300" sml:height="300" sml:href="https://gyazo.com/69610bbbbac53717766940df8203de08"></sml:link>
+  </sml:external-links>
+  <sml:external-images>
+    <sml:image sml:x="31" sml:y="185" sml:width="300" sml:height="300" sml:href="https://gyazo.com/69610bbbbac53717766940df8203de08/raw" />
+  </sml:external-images>
+</sml:web-screenshot>
